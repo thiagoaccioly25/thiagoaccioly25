@@ -6,10 +6,10 @@
 
 - Conta criada para entrega de trabalho 
 
-nome = (input('Nome da criança:'))
+nome = (input('Nome da criança:')) <br />
 idade = int(input('Idade:')) <br />
-if idade <= 5:
-    ensino = 'educação infantil'
+if idade <= 5: <br />
+    ensino = 'educação infantil' <br />
     print('O(A) aluno(a) {} possui {} ano(s) e está no {}'.format(nome,idade,ensino))
 if 6 <= idade and idade <= 10:
     ensino = 'ensino fundamental |'
