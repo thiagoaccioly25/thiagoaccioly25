@@ -7,7 +7,7 @@
 - Conta criada para entrega de trabalho 
 
 nome = (input('Nome da criança:'))
-idade = int(input('Idade:'))
+idade = int(input('Idade:')) <br />
 if idade <= 5:
     ensino = 'educação infantil'
     print('O(A) aluno(a) {} possui {} ano(s) e está no {}'.format(nome,idade,ensino))
